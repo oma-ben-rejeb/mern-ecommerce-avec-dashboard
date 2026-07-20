@@ -1,116 +1,110 @@
 # 🛒 Full Stack MERN E-Commerce Platform
 
-A complete full-stack e-commerce platform built using the MERN stack. This project delivers a modern online shopping experience with a responsive customer interface and a powerful admin dashboard for managing the entire store.
+A complete full-stack e-commerce platform built with the MERN stack (MongoDB, Express.js, React, and Node.js). The project features a modern customer-facing storefront and a powerful admin dashboard for managing products, categories, users, and orders.
 
-Designed with scalability, performance, and maintainability in mind, the application follows modern web development practices and provides a seamless experience for both customers and administrators.
-
----
-
-## 🚀 Features
-
-### 👤 Customer Website
-
-- User registration & authentication
-- Secure login system
-- Product catalog
-- Product categories
-- Product search
-- Product filtering
-- Product details page
-- Shopping cart
-- Checkout process
-- Order history
-- User profile management
-- Responsive design
-- Modern UI/UX
-- Fast navigation
-- Mobile-friendly interface
+Designed with React, JSX, Redux Toolkit, Tailwind CSS, and Vite, the platform delivers a fast, responsive, and scalable shopping experience with a clean and modern user interface.
 
 ---
 
-### 🛠️ Admin Dashboard
+# ✨ Features
 
-- Dashboard overview
-- Product management (CRUD)
-- Category management
-- User management
-- Customer management
-- Order management
-- Inventory management
-- Store statistics
-- Sales overview
-- Secure administration panel
+## 🛍️ Customer Website
 
----
-
-### ⚙️ Backend Features
-
-- RESTful API
-- JWT Authentication
-- Protected Routes
-- MongoDB Database
-- Express.js Server
-- Error Handling
-- Data Validation
-- Scalable Architecture
+- User Registration
+- Secure Login & Authentication
+- User Profile
+- Browse Products
+- Product Categories
+- Product Search
+- Product Filtering
+- Product Details
+- Shopping Cart
+- Checkout Process
+- Order History
+- Responsive Design
+- Modern User Interface
+- Fast Navigation
 
 ---
 
-## 🧰 Technologies
+## ⚙️ Admin Dashboard
 
-### Frontend
+- Dashboard Overview
+- Product Management (CRUD)
+- Category Management
+- User Management
+- Customer Management
+- Order Management
+- Inventory Management
+- Sales Overview
+- Store Statistics
+- Secure Admin Panel
+
+---
+
+# 🚀 Technologies
+
+## Frontend
 
 - React.js
 - JSX
 - Redux Toolkit
 - React Router
 - Tailwind CSS
+- Vite
 - JavaScript (ES6+)
 
-### Backend
+---
+
+## Backend
 
 - Node.js
 - Express.js
-- REST API
+- RESTful API
 
-### Database
+---
+
+## Database
 
 - MongoDB
 - Mongoose
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```text
-client/
+full-stack-mern-ecommerce/
 │
-├── public/
-├── src/
-├── components/
-├── pages/
-├── redux/
-├── services/
-└── ...
+├── client/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── tailwind.config.js
+│   ├── postcss.config.js
+│   ├── eslint.config.js
+│   └── ...
 
-server/
-│
-├── controllers/
-├── models/
-├── routes/
-├── middleware/
-├── config/
-└── ...
+├── server/
+│   ├── controllers/
+│   ├── helpers/
+│   ├── models/
+│   ├── routes/
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── server.js
+│   └── ...
 
-README.md
-package.json
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-## ⚡ Installation
+# ⚡ Installation
 
-### Clone the repository
+## Clone the repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/full-stack-mern-ecommerce.git
@@ -118,7 +112,7 @@ git clone https://github.com/YOUR_USERNAME/full-stack-mern-ecommerce.git
 
 ---
 
-### Install Frontend
+## Install Frontend
 
 ```bash
 cd client
@@ -127,7 +121,7 @@ npm install
 
 ---
 
-### Install Backend
+## Install Backend
 
 ```bash
 cd ../server
@@ -136,7 +130,7 @@ npm install
 
 ---
 
-### Run Frontend
+## Run Frontend
 
 ```bash
 npm run dev
@@ -144,7 +138,7 @@ npm run dev
 
 ---
 
-### Run Backend
+## Run Backend
 
 ```bash
 npm start
@@ -152,83 +146,59 @@ npm start
 
 ---
 
-## 📸 Preview
+# 📸 Screenshots
 
-<img width="1900" height="918" alt="Capture d’écran 2026-07-09 172932" src="https://github.com/user-attachments/assets/bbdb07a2-5143-4021-89b1-dff94e7b8d98" />
+<img width="1900" height="918" alt="Capture d’écran 2026-07-09 172932" src="https://github.com/user-attachments/assets/d9f899e9-a2c8-4a86-bfdc-491ec21bb863" />
 
 
-### Home Page
-
-```
-Screenshot
-```
-
-### Product Page
-
-```
-Screenshot
-```
-
-### Shopping Cart
-
-```
-Screenshot
-```
-
-### Checkout
-
-```
-Screenshot
-```
-
-### Admin Dashboard
-
-```
-Screenshot
-```
-
-### Product Management
-
-```
-Screenshot
-```
+- Home Page
+- Product Details
+- Shopping Cart
+- Checkout
+- User Profile
+- Admin Dashboard
+- Products Management
+- Orders Management
 
 ---
 
-## 💡 Highlights
+# 🌟 Highlights
 
-- Full Stack MERN Application
-- Responsive Design
-- Modern UI with Tailwind CSS
-- Redux Toolkit State Management
+- Complete Full Stack MERN Application
+- Modern Responsive UI
+- Customer Shopping Experience
+- Powerful Admin Dashboard
 - Secure Authentication
-- Complete Admin Dashboard
-- RESTful API
+- Redux Toolkit State Management
+- RESTful API Architecture
 - MongoDB Database
-- Clean Project Structure
-- Scalable Architecture
+- Tailwind CSS Styling
+- Vite Development Environment
+- Scalable Project Structure
+- Clean and Maintainable Code
 
 ---
 
-## 📈 Future Improvements
+# 🔮 Future Improvements
 
-- Payment Gateway Integration
+- Payment Gateway Integration (Stripe / PayPal)
+- Product Reviews & Ratings
 - Wishlist
-- Product Reviews
 - Coupons & Discounts
 - Email Notifications
 - Multi-language Support
 - Dark Mode
-- Analytics Dashboard
+- Sales Analytics
+- Advanced Search & Filters
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-Developed by **Oma Ben Rejeb**
+**Oma Ben Rejeb**
 
 ---
 
-## 📄 License
+# 📄 License
 
 This project is licensed under the MIT License.
